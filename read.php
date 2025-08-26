@@ -15,7 +15,7 @@ $pdo=null;
 $stmt=null;
  }
  catch(PDOException $e){
-echo"error: ".$e->getMessage();
+echo"error is due to : ".$e->getMessage();
  }
 }
 else{
